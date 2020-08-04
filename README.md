@@ -1,10 +1,19 @@
-# Task6
+# Tiger and caretaker
 
-Задание "Тигр и смотритель"  
-В клетке сидит тигр. Смотритель кормит его мясом.  
-Тигр время от времени поглощает несколько килограммов мяса, сколько ему случайно захочется.  
-Когда миска опустеет, тигр добреет и не кусается, смотритель может войти и положить еще мяса.  
+There is a tiger in a cage. The caretaker feeds him meat (a bowl of meat is a *shared memory*). The tiger from time to time eats several kilograms of meat, as much as he accidentally wants. When the bowl is empty, the tiger is kind and does not bite, the caretaker can come in and put in more meat. By pressing <Ctrl-C>, all processes (tiger and caretaker) terminate correctly.
 
-Процесс сборки программы: Код написан в текстовом редакторе Siblime text 3 в системе Ubuntu  
-Скомпилировать программу при помощи команды: gcc cell.c  
-Процесс запуска программы: после компиляции программы ввести в терминале команду: ./a.out
+### Load:
+```sh
+$ git clone https://github.com/Berezniker/IPC.git
+$ cd IPC
+```
+
+### Compile:
+```sh
+$ gss cell.c
+```
+
+### Run:
+```sh
+$ ./a.out
+```
