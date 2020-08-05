@@ -10,10 +10,12 @@ $ cd IPC
 
 ### Compile:
 ```sh
-$ gss cell.c
+$ gcc cell.c -o cell
 ```
 
 ### Run:
 ```sh
-$ ./a.out
+$ ./cell
 ```
+
+<img src="https://github.com/Berezniker/IPC/blob/master/console.png">
